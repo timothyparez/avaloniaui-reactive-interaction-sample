@@ -39,7 +39,13 @@ public class MainWindowViewModel : ViewModelBase
 ### Architecture
 While browsing through the code, the following diagram may help you better understand what is going on.
 
-![interaction](/home/timothy/Documents/Projects/InteractionSample/interaction.png)
+### Getting & running the sample
+
+```
+git clone https://github.com/timothyparez/avaloniaui-reactive-interaction-sample.git
+cd avaloniaui-reactive-interaction-sample
+dotnet run
+```
 
 
 
