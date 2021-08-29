@@ -9,7 +9,7 @@ When you click the `Button` a `LoginWindow` is shown where you can input a `user
 Upon closing the `LoginWindow` an instance of `User` is returned to the `MainWindow`   
 The `MainWindow` simply displays the `Name` of the `User` that was returned.
 
-![screenshot](/home/timothy/Documents/Projects/InteractionSample/screenshot.png)
+![screenshot](screenshot.png)
   
 Basically the sample answers the question posed in the code below:
 
@@ -39,6 +39,8 @@ public class MainWindowViewModel : ViewModelBase
 ### Architecture
 While browsing through the code, the following diagram may help you better understand what is going on.
 
+![interaction](interaction.png)
+
 ### Getting & running the sample
 
 ```
@@ -46,6 +48,7 @@ git clone https://github.com/timothyparez/avaloniaui-reactive-interaction-sample
 cd avaloniaui-reactive-interaction-sample
 dotnet run
 ```
+
 
 
 
